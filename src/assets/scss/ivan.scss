@@ -1,0 +1,30 @@
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ivan-section {
+  @include center;
+
+  height: 100vh;
+  background: black;
+}
+
+.title-box {
+  @include center;
+  max-width: 400px;
+  width: 100%;
+  height: 20vh;
+  border: 1px solid whitesmoke;
+}
+
+.title {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 42px;
+  letter-spacing: 1px;
+  color: whitesmoke;
+}
